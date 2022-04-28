@@ -100,7 +100,7 @@ router.delete('/users/me', auth, async (req, res) => {
             from: `Tosin <anjorintosin8@gmail.com>`,
             to: `${req.user.email}`,
             subject: 'Account deletetion',
-            text: 'please can you tell us the reason for your cancellation', 
+            text: 'please can you tell us the reason for your cancellation of your plans', 
             html: '<h1>Goodbye from World of magic<h1>'
         };
 
